@@ -2,5 +2,6 @@ This repository forms the background of
 - a forthcoming DHQ article by Jan Horstmann, Christian Lück, and Immanuel Normann (University of Münster) on "Systems of Intertextuality. Towards a formalization of text relations for manual annotation and automated reasoning" and
 - a talk: Jan Horstmann, Christian Lück und Immanuel Normann (2023): „Textliche Relationen maschinenlesbar formalisieren: Systeme der Intertextualität“, in: Peer Trilcke und Anna Busch (Hg.): DHd 2023 Open Humanities Open Culture. 9. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum", Trier, Luxemburg. DOI: https://doi.org/10.5281/zenodo.7715368.
 
-Abstract
+## Abstract
+
 How can intertextual relations be formalized and annotated? What would be a coherent category system of intertextuality and which formalization is suitable to make it computable while not losing its expressiveness. Against the backdrop of the most influential classical theories of intertextuality, the article does not aim for an automatic detection of intertextual relations like many other digital humanities approaches did before, but suggests a formal and expandable model of the core of intertextuality with the means of description logic, i.e. it models relations and types of entities being related by them in a machine readable RDF format. The utilization of this theory-driven model is demonstrated by several examples of intertextual relations as discussed in literary studies.
