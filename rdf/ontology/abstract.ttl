@@ -21,7 +21,7 @@
 :IntertextualSpecification
     a owl:Class ;
     rdfs:Label "Specification of intertextual relations"@en ;
-    rdfs:Comemnt "Specifications for intertextual relations have to be a instances this class and should be bundled in subclasses following some domain- or theory-specific system."@en .
+    rdfs:comment "Specifications for intertextual relations have to be a instances this class and should be bundled in subclasses following some domain- or theory-specific system."@en .
 
 :Mediator
     a owl:Class ;
