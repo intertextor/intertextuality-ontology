@@ -5,15 +5,15 @@
 
 <https://intertextuality.org/extensions/motives>
     a owl:Ontology ;
-    rdfs:Label "Motives"@en .
+    rdfs:label "Motives"@en .
 
 m:Motive
     rdfs:subClassOf :Mediator ;
-    rdfs:Label "Motive"@en ;
-    rdfs:Comment "A motive can function as a intertextual mediator."@en .
+    rdfs:label "Motive"@en ;
+    rdfs:comment "A motive can function as a intertextual mediator."@en .
 
 # Potentially endless list of motives:
 
 m:HorsesInAPigsty
     a m:Motive ;
-    rdfs:Label "Motive \"Horses in a pigsty\""@en .
+    rdfs:label "Motive \"Horses in a pigsty\""@en .

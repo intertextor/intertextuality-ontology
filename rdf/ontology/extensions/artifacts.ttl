@@ -1,26 +1,27 @@
 @prefix a: <https://intertextuality.org/extensions/artifacts#> .
 @prefix : <https://intertextuality.org/abstract#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <https://intertextuality.org/extensions/artifacts>
     a owl:Ontology ;
-    rdfs:Label "Analytic Levels Ontology"@en ;
-    rdfs:Comment "This ontology defines categories for analytic access (to artifacts) on different levels: works, segments, and systems."@en .
+    rdfs:label "Analytic Levels Ontology"@en ;
+    rdfs:comment "This ontology defines categories for analytic access (to artifacts) on different levels: works, segments, and systems."@en .
 
 a:Work
     a owl:Class ;
-    rdfs:Label "Work"@en ;
-    rdfs:Comment "An artifact as a somehow delimited entity, that is a whole in some respect: an aesthetic or functional whole, an entire communicative act etc."@en .
+    rdfs:label "Work"@en ;
+    rdfs:comment "An artifact as a somehow delimited entity, that is a whole in some respect: an aesthetic or functional whole, an entire communicative act etc."@en .
 
 a:Segment
     a owl:Class ;
-    rdfs:Label "Segment"@en ;
-    rdfs:Comment "A part of a work."@en .
+    rdfs:label "Segment"@en ;
+    rdfs:comment "A part of a work."@en .
 
 a:System
     a owl:Class ;
-    rdfs:Label "System"@en ;
-    rdfs:Comment "A set of structures significant for a set of works."@en .
+    rdfs:label "System"@en ;
+    rdfs:comment "A set of structures significant for a set of works."@en .
 
 a:Artifact
     owl:disjointUnionOf (a:Segment a:Work a:System) .

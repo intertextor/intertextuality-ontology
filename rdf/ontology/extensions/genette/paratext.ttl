@@ -5,12 +5,12 @@
 
 <https://intertextuality.org/extensions/genette/paratext>
     a owl:Ontology ;
-    rdfs:Label "Paratextual Signals Ontology"@en ;
-    rdfs:Comment "An ontology for paratextual signals that inaugurate intertextual relations according to Gérard Genette."@en .
+    rdfs:label "Paratextual Signals Ontology"@en ;
+    rdfs:comment "An ontology for paratextual signals that inaugurate intertextual relations according to Gérard Genette."@en .
 
 pt:ParatextualSignal
     rdfs:subClassOf :Mediator ;
-    rdfs:Label "Paratextual Signal"@en .
+    rdfs:label "Paratextual Signal"@en .
 
 # an open list of paratextual signals:
 
