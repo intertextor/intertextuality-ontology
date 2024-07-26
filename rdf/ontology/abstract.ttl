@@ -46,7 +46,7 @@
     rdfs:range :Reference ;
     rdfs:subPropertyOf oa:hasTarget ;
     rdfs:label "there"@en ;
-    rfdf:Comment "The resource (text) to which a more or less manifest intertextual relation is observed. As a rule of thumb, the resource referenced with this property is chronologically older than the one referenced with the property 'here'."@en .
+    rfds:comment "The resource (text) to which a more or less manifest intertextual relation is observed. As a rule of thumb, the resource referenced with this property is chronologically older than the one referenced with the property 'here'."@en .
     # TODO: left-totality
 
 :specifiedBy
