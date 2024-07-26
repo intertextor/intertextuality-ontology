@@ -24,7 +24,7 @@ ex:itr3
     a :IntertextualRelation ;
     :here ex:landarztPigsty ;
     :there ex:iliadAutomedonsPlummet ;
-    :specifiedBy _undefSepc ;
+    :specifiedBy _undefSpec ;
     :mediatedBy ex:itr2 ;
     rdfs:comment "a transitive intertextual relation mediated by ex:itr1 and ex:itr2."@en .
 
