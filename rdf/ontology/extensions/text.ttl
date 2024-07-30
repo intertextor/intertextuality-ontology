@@ -7,28 +7,28 @@
 <https://intertextuality.org/extensions/text>
     a owl:Ontology ;
     owl:imports <https://intertextuality.org/extensions/artifacts> ;
-    rdfs:Label "Text Ontology"@en ;
-    rdfs:Comment "This ontology defines categories for analytic access to text on different levels: works, segments, and genres."@en .
+    rdfs:label "Text Ontology"@en ;
+    rdfs:comment "This ontology defines categories for analytic access to text on different levels: works, segments, and genres."@en .
 
 t:Text
     a owl:Class ;
     # rdfs:subClassOf a:Artifact ;
-    rdfs:Label "Text"@en ;
-    rdfs:Comment "The class of artifacts denominated as text."@en .
+    rdfs:label "Text"@en ;
+    rdfs:comment "The class of artifacts denominated as text."@en .
 
 t:TextSegment
     owl:intersectionOf (t:Text a:Segment) ;
-    rdfs:Label "Text Segment"@en ;
-    rdfs:Comment "A segment of a text, i.e. a passage of a single text or work."@en .
+    rdfs:label "Text Segment"@en ;
+    rdfs:comment "A segment of a text, i.e. a passage of a single text or work."@en .
 
 t:SingleText
     owl:intersectionOf (t:Text  a:Work) ;
-    rdfs:Label "Single text"@en ;
-    rdfs:Comment "A single text is a somehow delimited text as a whole, the kind of thing denominated with terms like book, document, work, even if it's handed down only as a fragment."@en .
+    rdfs:label "Single text"@en ;
+    rdfs:comment "A single text is a somehow delimited text as a whole, the kind of thing denominated with terms like book, document, work, even if it's handed down only as a fragment."@en .
 
 t:TextGenre
     owl:intersectionOf (t:Text a:System) ;
-    rdfs:Label "Textual Genre"@en .
+    rdfs:label "Textual Genre"@en .
 
 t:here
     rdfs:subPropertyOf :here ;

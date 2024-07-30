@@ -6,8 +6,8 @@
 <https://intertextuality.org/extensions/genette/hypertextuality>
     a owl:Ontology ;
     owl:imports <https://intertextuality.org/abstract> ;
-    rdfs:Label "Genette's Hypertextual Relations"@en ;
-    rdfs:Comment "Ontology formalizing Gérard Genettes system of hypertextual relations as developed in his 1982 book 'Palimpsests'."@en .
+    rdfs:label "Genette's Hypertextual Relations"@en ;
+    rdfs:comment "Ontology formalizing Gérard Genettes system of hypertextual relations as developed in his 1982 book 'Palimpsests'."@en .
 
 g:HypertextualRelation
     rdfs:subClassOf :IntertextualSpecification ;
@@ -30,29 +30,29 @@ g:hasModalType
 g:parody
     g:hasRelationalType g:transformation ;
     g:hasModelType g:playfully ;
-    rdfs:Label "Parody, i.e. a playful transformation"@en .
+    rdfs:label "Parody, i.e. a playful transformation"@en .
 
 g:pastiche
     g:hasRelationalType g:imitation ;
     g:hasModalType g:playfully ;
-    rdfs:Label "Pastiche, i.e. a playful imitation"@en .
+    rdfs:label "Pastiche, i.e. a playful imitation"@en .
 
 g:travesty
     g:hasRelationalType g:transformation ;
     g:hasModalType g:satirically ;
-    rdfs:Label "Travesty, i.e. a satirical transformation"@en .
+    rdfs:label "Travesty, i.e. a satirical transformation"@en .
 
 g:persiflage
     g:hasRelationalType g:imitation ;
     g:hasModalType g:satirically ;
-    rdfs:Label "Persiflage, i.e. a satirical imitation"@en .
+    rdfs:label "Persiflage, i.e. a satirical imitation"@en .
 
 g:transposition
     g:hasRelationalType g:transformation ;
     g:hasModalType g:seriously ;
-    rdfs:Label "Transposition, i.e. a serious transformation"@en .
+    rdfs:label "Transposition, i.e. a serious transformation"@en .
 
 g:replication
     g:hasRelationalType g:imitation ;
     g:hasModalType g:seriously ;
-    rdfs:Label "Replication, i.e. a serious imitation"@en .
+    rdfs:label "Replication, i.e. a serious imitation"@en .

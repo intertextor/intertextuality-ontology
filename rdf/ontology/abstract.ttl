@@ -5,28 +5,28 @@
 
 <https://intertextuality.org/abstract>
     a owl:Ontology ;
-    rdfs:Label "Core Ontology for Intertextual Relations"@en .
+    rdfs:label "Core Ontology for Intertextual Relations"@en .
 
 # 1. Classes
 
 :IntertextualRelation
     a owl:Class ;
-    rdfs:Label "Intertextual Relation"@en .
+    rdfs:label "Intertextual Relation"@en .
 
 :Reference
     a owl:Class ;
-    rdfs:Label "Resource"@en ;
-    rdfs:Comment "The resources between which an intertextual relation is recorded have to be instances of this class."@en .
+    rdfs:label "Resource"@en ;
+    rdfs:comment "The resources between which an intertextual relation is recorded have to be instances of this class."@en .
 
 :IntertextualSpecification
     a owl:Class ;
-    rdfs:Label "Specification of intertextual relations"@en ;
-    rdfs:Comemnt "Specifications for intertextual relations have to be a instances this class and should be bundled in subclasses following some domain- or theory-specific system."@en .
+    rdfs:label "Specification of intertextual relations"@en ;
+    rdfs:comment "Specifications for intertextual relations have to be a instances this class and should be bundled in subclasses following some domain- or theory-specific system."@en .
 
 :Mediator
     a owl:Class ;
-    rdfs:Label "Mediator"@en ;
-    rdfs:Comment "Mediators for intertextual relations must be a instances of this class and should be bundled in subclasses following some system."@en .
+    rdfs:label "Mediator"@en ;
+    rdfs:comment "Mediators for intertextual relations must be a instances of this class and should be bundled in subclasses following some system."@en .
 
 
 # 2. Predicates
@@ -36,8 +36,8 @@
     rdfs:domain :IntertextualRelation ;
     rdfs:range :Reference ;
     rdfs:subPropertyOf oa:hasTarget ;
-    rdfs:Label "here"@en ;
-    rdfs:Comment "The (textual) resource that has a more or less manifest intertextual relation to another text. As a rule of thumb, the resource referenced with this property is chronologically younger than the one referenced with the property 'there'."@en .
+    rdfs:label "here"@en ;
+    rdfs:comment "The (textual) resource that has a more or less manifest intertextual relation to another text. As a rule of thumb, the resource referenced with this property is chronologically younger than the one referenced with the property 'there'."@en .
     # TODO: left-totality
 
 :there
@@ -45,8 +45,8 @@
     rdfs:domain :IntertextualRelation ;
     rdfs:range :Reference ;
     rdfs:subPropertyOf oa:hasTarget ;
-    rdfs:Label "there"@en ;
-    rfdf:Comment "The resource (text) to which a more or less manifest intertextual relation is observed. As a rule of thumb, the resource referenced with this property is chronologically older than the one referenced with the property 'here'."@en .
+    rdfs:label "there"@en ;
+    rdfs:comment "The resource (text) to which a more or less manifest intertextual relation is observed. As a rule of thumb, the resource referenced with this property is chronologically older than the one referenced with the property 'here'."@en .
     # TODO: left-totality
 
 :specifiedBy
@@ -54,8 +54,8 @@
     rdfs:domain :IntertextualRelation ;
     rdfs:range :IntertextualSpecification ;
     rdfs:subPropertyOf oa:hasBody ;
-    rdfs:Label "specified by"@en ;
-    rdfs:Comment "Each intertextual relation has to be specified by a category following a more or less common theoretical notion."@en .
+    rdfs:label "specified by"@en ;
+    rdfs:comment "Each intertextual relation has to be specified by a category following a more or less common theoretical notion."@en .
     # TODO: left-totality
 
 :mediatedBy
@@ -63,8 +63,8 @@
     rdfs:domain :IntertextualRelation ;
     rdfs:range :Mediator ;
     rdfs:subPropertyOf oa:hasBody ;
-    rdfs:Label "mediated by"@en ;
-    rdfs:Comment "Intertextual relations may be established by a mediator, e.g. a motive."@en .
+    rdfs:label "mediated by"@en ;
+    rdfs:comment "Intertextual relations may be established by a mediator, e.g. a motive."@en .
 
 
 # 3. Enable recursive/transitive intertextual relation via instances of :Mediator.

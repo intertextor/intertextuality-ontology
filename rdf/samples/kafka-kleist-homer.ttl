@@ -8,34 +8,34 @@ ex:itr1
     a :IntertextualRelation ;
     :here ex:landarztPigsty ;
     :there ex:kohlhaasPigsty ;
-    :specifiedBy _undefSpec ;
+    :specifiedBy _:undefSpec ;
     :mediatedBy m:HorsesInAPigsty ;
-    rdfs:Comment "intertextual relation between segments of Kafka's \"Ein Landarzt\" and Kleist's \"Michael Kohlhaas\"."@en .
+    rdfs:comment "intertextual relation between segments of Kafka's \"Ein Landarzt\" and Kleist's \"Michael Kohlhaas\"."@en .
 
 ex:itr2
     a :IntertextualRelation ;
     :here ex:kohlhaasPigsty ;
     :there ex:iliadAutomedonsPlummet ;
-    :specifiedBy _undefSpec ;
+    :specifiedBy _:undefSpec ;
     :mediatedBy m:HorsesAndGeese ;
-    rdfs:Comment "intertextual relation between segments of Kleist's \"Michael Kohlhaas\" and Homer's \"Iliad\"."@en .
+    rdfs:comment "intertextual relation between segments of Kleist's \"Michael Kohlhaas\" and Homer's \"Iliad\"."@en .
 
 ex:itr3
     a :IntertextualRelation ;
     :here ex:landarztPigsty ;
     :there ex:iliadAutomedonsPlummet ;
-    :specifiedBy _undefSepc ;
+    :specifiedBy _:undefSpec ;
     :mediatedBy ex:itr2 ;
-    rdfs:Comment "a transitive intertextual relation mediated by ex:itr1 and ex:itr2."@en .
+    rdfs:comment "a transitive intertextual relation mediated by ex:itr1 and ex:itr2."@en .
 
-_undefSpec
-    a :IntertextualSpecification
-    rdfs:Comment "The intertextual relation is not further specified by Borgstedt"@en .
+_:undefSpec
+    a :IntertextualSpecification ;
+    rdfs:comment "The intertextual relation is not further specified by Borgstedt"@en .
 
 m:HorsesAndGeese
-    a m:Motive
-    rdfs:Label "Horses and Geese"@en ;
-    rdfs:Comment "A Horse and a goose, or several of them in some association, like substitution, simile, juxtaposition etc."@en .
+    a m:Motive ;
+    rdfs:label "Horses and Geese"@en ;
+    rdfs:comment "A Horse and a goose, or several of them in some association, like substitution, simile, juxtaposition etc."@en .
 
 ex:landarztPigsty
     oa:hasSource <https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qn00.0/data>;
