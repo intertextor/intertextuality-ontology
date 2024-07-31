@@ -1,0 +1,16 @@
+name: Turtle validation
+
+on: [push, workflow_dispatch]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v4
+      - name: Prepare node environment
+        uses: actions/setup-node@v4
+      - name: Install turtle validator
+        run: npm install -g turtle-validator
+      - name: Validate all turtle files
+        run: find rdf -name "*.ttl" -print0 | xargs -0 -i sh -c "echo {}; ttl {}"
