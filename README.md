@@ -1,8 +1,8 @@
 This repository forms the background of
 - a DHQ article: Jan Horstmann, Christian Lück, and Immanuel Normann (2023): "Systems of Intertextuality. Towards a formalization of text relations for manual annotation and automated reasoning", in _Digital Humanities Quaterly_ 17:3, http://www.digitalhumanities.org/dhq/vol/17/3/000731/000731.html and
 - a talk: Jan Horstmann, Christian Lück, and Immanuel Normann (2023): "Textliche Relationen maschinenlesbar formalisieren: Systeme der Intertextualität", in: Peer Trilcke und Anna Busch (Hg.): DHd 2023 Open Humanities Open Culture. 9. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum", Trier, Luxemburg. DOI: https://doi.org/10.5281/zenodo.7715368.
-- a poster: Jan Horstmann, Christian Lück, Immanuel Normann, and Jan-Erik Stange (2024): "Intertextor: Interfaces für die Annotation intertextueller Relationen", in: DHd 2024 Quo Vadis DH, 10. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum", Passau 2024. DOI: 10.5281/zenodo.10698496.
-- another talk: Ludger Hiepel, Jan Horstmann, Christian Lück, and Immanuel Normann (2025): "Alles hat seine Zeit: Generische Softwareentwicklung und individuelle Projektanforderungen", in: DHd 2025 Under Construction, 11. Tagung des Verbands „Digital Humanities im deutschsprachigen Raum“, Bielefeld 2025. DOI: 10.5281/zenodo.14943216.
+- a poster: Jan Horstmann, Christian Lück, Immanuel Normann, and Jan-Erik Stange (2024): "Intertextor: Interfaces für die Annotation intertextueller Relationen", in: DHd 2024 Quo Vadis DH, 10. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum", Passau 2024. DOI: https://doi.org/10.5281/zenodo.10698496.
+- another talk: Ludger Hiepel, Jan Horstmann, Christian Lück, and Immanuel Normann (2025): "Alles hat seine Zeit: Generische Softwareentwicklung und individuelle Projektanforderungen", in: DHd 2025 Under Construction, 11. Tagung des Verbands „Digital Humanities im deutschsprachigen Raum“, Bielefeld 2025. DOI: https://doi.org/10.5281/zenodo.14943216.
 
 ## Abstract
 
